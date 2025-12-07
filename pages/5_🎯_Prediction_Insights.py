@@ -84,6 +84,7 @@ with tab3:
             st.write('🧪 Precision: 95.6\%')
             st.write('Gamma = Scale')
             st.latex(r'''
+                math-display {{font-size: {display_size}rem;
                 gamma = \left(\frac{1}{n features * variance(X)}\right)
             ''')    
         st.divider()
