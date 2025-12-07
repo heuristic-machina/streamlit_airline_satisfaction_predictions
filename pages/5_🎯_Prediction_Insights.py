@@ -65,7 +65,7 @@ with tab3:
         st.header('Support Vector Classifier:')
         st.write('Regularization: C = 1')
         st.divider()
-        col1, col2 = st.columns(2, vertical_alignment='top', gap='large')
+        col1, col2 = st.columns(2, vertical_alignment='top', gap='medium')
         with col1:
             st.subheader('Linear SVC')
             st.divider()
