@@ -22,7 +22,7 @@ The second portion of the experiment split the cleaned dataset into training and
 
 ## Visualization Methods
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/heatmap.png)
 
 Heatmap: `satisfaction` 
 
