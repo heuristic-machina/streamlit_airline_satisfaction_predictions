@@ -14,7 +14,6 @@ The most influential important factors in predicting airline satisfaction are:
  - Business Class
  - Inflight Entertainment    
 """)
-    st.image('imgs/features.png', caption="Important Factors")
     st.write('Satisfaction shows high correlations with business travelers and the services aligned with on board technologies.  This is logical as business travelers would manage the flight down time to knock out some work related projects or to look over presentation notes.')
 
 with tab2:
@@ -22,7 +21,11 @@ with tab2:
     st.write('Business travelers generally know how businesses work, so they\'re more likely to fill out surveys than the average passenger. That familiarity with the system also tends to make them more appreciative and therefore more satisfied with the service.')
     st.write('62\% of the airline\'s customers are loyal and 100\% of them are business travelers.  Interestingly the disloyal customers, guess what are also traveling for business and make up a whopping 99\%.')
     st.write('So how can this be?  Shouldn\'t we see more positive satisfaction?  We should if we know for sure these travelers are not just upgrading to business for better amenities and so the actual metric is not reflected as the actual business person but perhaps some entitled type instead.  So the issue is not the service.  It\'s the inflated sense of deservedness.  Or there are others who don\'t see the value in feedback and this a key group to target.')
-    st.write('The airline should emphasize survey participation makes a difference for improvements their valued customers can make through their feedback, good or bad.  The surveys should be easily accessible through email or qr code and have a segment for the customers to add their feedback. Survey Monkey supplied a pro tip that people are more inclined to complete surveys on Thursdays and Fridays between 7am and 1pm PST, so sending out survey requests during peak response times may increase participation.')
+    col1, col2, col3 = st.columns(3, vertical_alignment='top', gap='small')
+    col1.image('imgs/qr_code.png', caption="QR-Code - Canva.com ", width=200)
+    col2.image('imgs/email.png', caption="Email - Canva.com ", width=200)
+    col3.image('imgs/survey.png', caption="Survey - Canva.com ", width=200)
+    st.write('To convert both groups the airline should incorporate a qr code tap to pay for as an option for flights offering services such as upgraded headphones for their mobile devices, adult beverages, and upgraded entertainment packages.  The tap to pay feature would link to traveler\'s email and would automatically require a short survey before allowing payment of their item/service. This free membership would also have perks of staying in touch so the customer can be ahead of their travel.  Surveys outside of the purchasing window could be sent to given email during peak times when responses have increase participation.  Survey Monkey supplied a pro tip that people are more inclined to complete surveys on Thursdays and Fridays between 7am and 1pm PST, the airline could run a sampling at these times to see what works best.')
 
 with tab3:
     tab1, tab2, tab3, tab4 = st.tabs(['Random Forest', 'SVC', 'Logistic Regression', 'Test Summary'])
@@ -122,7 +125,7 @@ with tab3:
 
     with tab4:
         st.header('Model Test Summary')
-        st.image('imgs/test.jpg', width=300)
+        st.image('imgs/test.jpg', caption='Test - Vecteezy.com',width=300)
         st.divider()
         container = st.container(border=True)
         container.write('🌳 The Random Forest model performed the best because the data contains complex, non-linear patterns that linear models miss (Linear SVC & Logistic Regression), and the algorithm is computationally efficient enough to train effectively on a dataset of this size, which challenges the kernel classifier RBF.')

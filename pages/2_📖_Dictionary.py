@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.title('Airline Data Dictionary 📖')
-st.image('imgs/online.jpg', width=400)
+st.image('imgs/online.jpg', caption='Online Booking - Vecteezy.com', width=400)
 
 st.write('Survey scale from 0-5 worst to best')
 left, middle, right = st.columns(3, vertical_alignment='top')

@@ -16,7 +16,7 @@ st.write("""
         
     """)
 
-st.image('imgs/business.jpg', caption="Business Class")
+st.image('imgs/business.jpg', caption="Business Class - Vecteezy.com")
 
     # Dataset Display
 st.subheader("Quick Glance at the Data")
