@@ -104,7 +104,7 @@ with tab3:
         st.image('imgs/log.png', width=100)
         st.header('Logistic Regression')
         st.divider()
-        st.image('imgs/log_r.png', width=300)
+        st.image('imgs/log_r.png', width=500)
         st.write('Training accuracy: 87.7%')
         st.write('Testing accuracy: 87.3%')
         st.write('🔬 Test Sensitivity: 83.4%')
