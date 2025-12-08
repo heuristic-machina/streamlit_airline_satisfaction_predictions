@@ -6,7 +6,6 @@ tab1, tab2, tab3 = st.tabs(['Top Factors', 'Business Insights', 'Experimental Fi
 
 with tab1:
     st.header('✈️ Top Factors')
-    st.image('imgs/features.png')
     st.markdown("""
 The most influential important factors in predicting airline satisfaction are:
  - Online Boarding
@@ -15,6 +14,7 @@ The most influential important factors in predicting airline satisfaction are:
  - Business Class
  - Inflight Entertainment    
 """)
+    st.image('imgs/features.png')
     st.write('Satisfaction shows high correlations with business travelers and the services aligned with on board technologies.  This is logical as business travelers would manage the flight down time to knock out some work related projects or to look over presentation notes.')
 
 with tab2:
