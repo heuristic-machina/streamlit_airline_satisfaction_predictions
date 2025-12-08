@@ -1,7 +1,7 @@
 
 # Airline Satisfaction Predictions using Machine Learning: 
 
-This experiment employs 4 Machine Learning models evaluating model metrics and computing performance for predicting airline satisfaction rates.
+This experiment employs 4 Machine Learning models evaluating model metrics and computing performance for predicting airline satisfaction rates.  Fly over to the interactive app for this project and try for yourself: https://airline-satisfaction-predictions.streamlit.app/
 
 
 ## Introduction:
