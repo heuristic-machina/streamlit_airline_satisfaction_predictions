@@ -10,6 +10,7 @@ num_cols = df.select_dtypes(include='number').columns.tolist()
 st.title('Exploratory Data Analysis 📐')
 st.subheader('Select the type of Visualization to Explore')
 eda_type= st.multiselect('Visualization Options', ['Histograms', 'Box Plots', 'Scatter Plots', 'Count Plots'])
+color_discrete_sequence=['Alphabet', 'Antique', 'Bold', 'D3', 'Dark2', 'Dark24']
 
 if 'Histograms' in eda_type:
     st.subheader('Histograms - Visualizing Numerical Distributions')
@@ -17,7 +18,7 @@ if 'Histograms' in eda_type:
     if h_selected_col:
         chart_title = f"Distribution of {h_selected_col.title()}"
         if st.checkbox('Shows Satisfied Travelers'):
-            st.plotly_chart(px.histogram(df, x=h_selected_col, color='satisfaction', title=chart_title, barmode='overlay'))
+            st.plotly_chart(px.histogram(df, x=h_selected_col, color='satisfaction', title=chart_title, barmode='overlay', color_discrete_sequence=px.colors.qualitative.D3))
         else:
             st.plotly_chart(px.histogram(df, x=h_selected_col, title=chart_title))
 
@@ -26,7 +27,7 @@ if 'Box Plots' in eda_type:
     b_selected_col = st.selectbox('Select a numerical column for the box plot:', num_cols)
     if b_selected_col:
         chart_title = f"Distribution of {b_selected_col.title()}"
-        st.plotly_chart(px.box(df, x='satisfaction', y=b_selected_col, title=chart_title, color='satisfaction'))
+        st.plotly_chart(px.box(df, x='satisfaction', y=b_selected_col, title=chart_title, color='satisfaction', color_discrete_sequence=px.colors.qualitative.Dark2))
 
 if 'Scatter Plots' in eda_type:
     st.subheader('Scatterplots - Visualizing Relationships')
@@ -41,4 +42,4 @@ if 'Count Plots' in eda_type:
     selected_col = st.selectbox('Select a categorical variable:', num_cols)
     if selected_col:
         chart_title = f'Distribution of {selected_col.title()}'
-        st.plotly_chart(px.histogram(df, x=selected_col, color='satisfaction', title=chart_title))
+        st.plotly_chart(px.histogram(df, x=selected_col, color='satisfaction', color_discrete_sequence=px.colors.qualitative.Alphabet, title=chart_title))
