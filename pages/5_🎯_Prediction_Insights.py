@@ -6,6 +6,7 @@ tab1, tab2, tab3 = st.tabs(['Top Factors', 'Business Insights', 'Experimental Fi
 
 with tab1:
     st.header('✈️ Top Factors')
+    st.image('imgs/features.png')
     st.markdown("""
 The most influential important factors in predicting airline satisfaction are:
  - Online Boarding
