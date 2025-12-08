@@ -26,31 +26,31 @@ The second portion of the experiment split the cleaned dataset into training and
 
 Heatmap: `satisfaction` 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/log_feat.png)
 
 Boxplots: Log Transformed Features `dep_delay_log`, `arr_delay_log`, `flight_dist_log`
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/log_r.png)
 
 Confusion Matrix: Logistic Regression Model
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/lin_svc.png)
 
 Confusion Matrix: Linear SVC Model
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/rbf_svc.png)
 
 Confusion Matrix: Radial Basis Function SVC Model
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/rf.png)
 
 Confusion Matrix: Random Forest Classifier Model
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/rf_hyper.png)
 
 Confusion Matrix: Random Forest Classifier Model Hyperparameter Tuning
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/features.png)
 
 Bar Plot: Most Important Features
 
