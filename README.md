@@ -53,6 +53,9 @@ Confusion Matrix: Random Forest Classifier Model Hyperparameter Tuning
 ![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/features.png)
 
 Bar Plot: Most Important Features
+![App Screenshot](https://github.com/heuristic-machina/streamlit_airline_satisfaction_predictions/blob/master/imgs/demographics.png)
+
+Heatmap: Median Survey Feature Scores by Demographic
 
 
 ## Conclusion:
@@ -61,8 +64,25 @@ Bar Plot: Most Important Features
 
 The kernel classifier obtained high scores but was extremely slow and computationally expensive since it compares every data point to every other data point taking space of Big O notation of N squared.
 
-From a business standpoint airlines could target differences between it's loyal and disloyal customers and apply marketing strategies provided the following assumption: the discrepancy between loyal and disloyal business travelers suggests that the label ‘business travel’ captures two psychologically distinct groups: experienced business professionals who understand operational constraints and show higher appreciation, and upgrading or status-driven passengers whose elevated expectations create dissatisfaction. This mix inflates the business-travel category while masking the underlying differences in mindset and expectation.  Email marketing for airline onboard services could be beneficial in preparing less traveled customers positively impacting satisfaction scores.   Check out the interactive app for this project https://airline-satisfaction-predictions.streamlit.app/ for more details!
+From a business standpoint airlines can help their customers become more satisified by arming them with knowledgeable blogs to get new and young business travelers up to speeds like their loyal veterans. Airline implementation of email marketing for onboard offerings could be beneficial for optimal planning resulting in increased traveler satisfaction.
 
-## References
+Now that you have all that reading out of the way go on and check out the interactive app: https://airline-satisfaction-predictions.streamlit.app/ for this project!
+
+## References and Credits
 
  - Burkov, Andriy, *The Hundred-Page Machine Learning Book*, Coppell, 2019
+ - Images from Vecteezy, https://www.vecteezy.com/
+ - Image from ChatGPT, https://chatgpt.com/
+ - https://www.businessinsider.com/difference-between-amenities-in-business-and-economy-class-2023-8#both-seats-offered-snacks-but-in-business-class-i-could-order-an-unlimited-amount-23
+ - https://www.reddit.com/r/BritishAirways/comments/1dr9xa7/corporate_travel_policies_frequent_flying/
+ - https://www.getnomad.app/blog/do-planes-have-wifi
+ - https://thepointsguy.com/news/business-travel-points-and-miles/
+ - https://onemileatatime.com/tall-passengers-more-legroom/
+ - https://travelnoire.com/too-tall-to-fly-learn-how-main-us-airlines-deal-with-passengers-that-need-more-leg-room
+ - https://www.nerdwallet.com/travel/learn/in-flight-entertainment-the-complete-guide
+ - https://www.reddit.com/r/unitedairlines/comments/14qo2u1/economy_plus_on_full_flight/
+ - https://www.united.com/en/us/fly/travel/inflight/economy-plus.html
+ - https://entertainment.aa.com/en
+ - https://www.united.com/en/us/fly/mileageplus/young-adult-discount.html
+ - https://simpleflying.com/united-airlines-economy-plus-facts/
+
