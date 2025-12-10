@@ -12,7 +12,7 @@ with left:
     container = st.container(border=True)
     container.markdown("""
     1. age: Traveler age
-    2. sex:
+    2. gender:
     - 0: Female
     - 1: Male
     3. customer_type:
